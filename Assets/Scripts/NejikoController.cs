@@ -40,7 +40,7 @@ public class NejikoController : MonoBehaviour
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = speedJump;
-                animator.SetTrigger("Jump");
+                animator.SetTrigger("jump");
             }
         }
 
